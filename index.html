@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="library.js"></script>
 </head>
-<body>
-    
+
+<body onload="init()">
+    <select name="" id="func-name">
+    <option type="select" name="function" >showMin</option>
+    <option type="select" name="function" >showAdd7</option>
+    <option type="select" name="function" >sqrRt</option>
+</select>
+    <button id="func-create" onclick="functioncreate()">create button for function</button>
+    <div></div>
 </body>
 </html>
